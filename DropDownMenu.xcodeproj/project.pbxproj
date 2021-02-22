@@ -3,13 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23CC4683F2D8A27016B09EF8 /* Pods_DropDownMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B81F90A81D03C1E56233FE /* Pods_DropDownMenu.framework */; };
 		47260C5B25E3468400D88415 /* DropDownMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47260C5125E3468300D88415 /* DropDownMenu.framework */; };
 		47260C6025E3468400D88415 /* DropDownMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47260C5F25E3468400D88415 /* DropDownMenuTests.swift */; };
 		47260C6225E3468400D88415 /* DropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 47260C5425E3468300D88415 /* DropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47260C7125E346DC00D88415 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47260C6F25E346DC00D88415 /* PopoverViewController.swift */; };
+		47260C7225E346DC00D88415 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47260C7025E346DC00D88415 /* PopoverViewController.xib */; };
+		47260C7825E3471E00D88415 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47260C7725E3471E00D88415 /* BaseViewController.swift */; };
+		47260C7E25E3476800D88415 /* PresentationalStyleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47260C7D25E3476800D88415 /* PresentationalStyleModel.swift */; };
+		47260C8525E34A8D00D88415 /* PopoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47260C8325E34A8D00D88415 /* PopoverCell.swift */; };
+		47260C8625E34A8D00D88415 /* PopoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47260C8425E34A8D00D88415 /* PopoverCell.xib */; };
+		47260C9525E34E9900D88415 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47260C9425E34E9900D88415 /* R.generated.swift */; };
+		D762B1C7F050B33EED5F38C6 /* Pods_DropDownMenu_DropDownMenuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C7D507CAF6AE2A263D1EDF /* Pods_DropDownMenu_DropDownMenuTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +32,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12C08C3DBB04A8F99108E9C6 /* Pods-DropDownMenu-DropDownMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu-DropDownMenuTests.release.xcconfig"; path = "Target Support Files/Pods-DropDownMenu-DropDownMenuTests/Pods-DropDownMenu-DropDownMenuTests.release.xcconfig"; sourceTree = "<group>"; };
 		47260C5125E3468300D88415 /* DropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47260C5425E3468300D88415 /* DropDownMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDownMenu.h; sourceTree = "<group>"; };
 		47260C5525E3468300D88415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47260C5A25E3468300D88415 /* DropDownMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDownMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47260C5F25E3468400D88415 /* DropDownMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuTests.swift; sourceTree = "<group>"; };
 		47260C6125E3468400D88415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47260C6F25E346DC00D88415 /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		47260C7025E346DC00D88415 /* PopoverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
+		47260C7725E3471E00D88415 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		47260C7D25E3476800D88415 /* PresentationalStyleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationalStyleModel.swift; sourceTree = "<group>"; };
+		47260C8325E34A8D00D88415 /* PopoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverCell.swift; sourceTree = "<group>"; };
+		47260C8425E34A8D00D88415 /* PopoverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopoverCell.xib; sourceTree = "<group>"; };
+		47260C9425E34E9900D88415 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		92F493CC0DC967E5EDA5F7A8 /* Pods-DropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu.debug.xcconfig"; path = "Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		AD681B9DCC86229E3E233755 /* Pods-DropDownMenu-DropDownMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu-DropDownMenuTests.debug.xcconfig"; path = "Target Support Files/Pods-DropDownMenu-DropDownMenuTests/Pods-DropDownMenu-DropDownMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2C7D507CAF6AE2A263D1EDF /* Pods_DropDownMenu_DropDownMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownMenu_DropDownMenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FF22A3F6E14322EB6ECD4B /* Pods-DropDownMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu.release.xcconfig"; path = "Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu.release.xcconfig"; sourceTree = "<group>"; };
+		F6B81F90A81D03C1E56233FE /* Pods_DropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23CC4683F2D8A27016B09EF8 /* Pods_DropDownMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +67,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				47260C5B25E3468400D88415 /* DropDownMenu.framework in Frameworks */,
+				D762B1C7F050B33EED5F38C6 /* Pods_DropDownMenu_DropDownMenuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		247E7EC8A08FC30CA0189127 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92F493CC0DC967E5EDA5F7A8 /* Pods-DropDownMenu.debug.xcconfig */,
+				C8FF22A3F6E14322EB6ECD4B /* Pods-DropDownMenu.release.xcconfig */,
+				AD681B9DCC86229E3E233755 /* Pods-DropDownMenu-DropDownMenuTests.debug.xcconfig */,
+				12C08C3DBB04A8F99108E9C6 /* Pods-DropDownMenu-DropDownMenuTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		47260C4725E3468300D88415 = {
 			isa = PBXGroup;
 			children = (
 				47260C5325E3468300D88415 /* DropDownMenu */,
+				47260C9425E34E9900D88415 /* R.generated.swift */,
 				47260C5E25E3468400D88415 /* DropDownMenuTests */,
 				47260C5225E3468300D88415 /* Products */,
+				247E7EC8A08FC30CA0189127 /* Pods */,
+				BDA64EA7230DCD74C967A0AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +109,9 @@
 		47260C5325E3468300D88415 /* DropDownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				47260C7525E3470000D88415 /* Shared */,
+				47260C6E25E346C000D88415 /* Model */,
+				47260C6D25E346B500D88415 /* Controllers */,
 				47260C5425E3468300D88415 /* DropDownMenu.h */,
 				47260C5525E3468300D88415 /* Info.plist */,
 			);
@@ -84,6 +125,66 @@
 				47260C6125E3468400D88415 /* Info.plist */,
 			);
 			path = DropDownMenuTests;
+			sourceTree = "<group>";
+		};
+		47260C6D25E346B500D88415 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				47260C8125E34A1700D88415 /* Popover */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		47260C6E25E346C000D88415 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47260C7D25E3476800D88415 /* PresentationalStyleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47260C7525E3470000D88415 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				47260C7625E3470B00D88415 /* Controllers */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		47260C7625E3470B00D88415 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				47260C7725E3471E00D88415 /* BaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		47260C8125E34A1700D88415 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				47260C8225E34A3000D88415 /* Cell */,
+				47260C6F25E346DC00D88415 /* PopoverViewController.swift */,
+				47260C7025E346DC00D88415 /* PopoverViewController.xib */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		47260C8225E34A3000D88415 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				47260C8325E34A8D00D88415 /* PopoverCell.swift */,
+				47260C8425E34A8D00D88415 /* PopoverCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BDA64EA7230DCD74C967A0AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B81F90A81D03C1E56233FE /* Pods_DropDownMenu.framework */,
+				B2C7D507CAF6AE2A263D1EDF /* Pods_DropDownMenu_DropDownMenuTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +205,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47260C6525E3468400D88415 /* Build configuration list for PBXNativeTarget "DropDownMenu" */;
 			buildPhases = (
+				EF6191052A69D1F1CFCD0CFB /* [CP] Check Pods Manifest.lock */,
+				47260C9125E34DBB00D88415 /* ShellScript */,
 				47260C4C25E3468300D88415 /* Headers */,
 				47260C4D25E3468300D88415 /* Sources */,
 				47260C4E25E3468300D88415 /* Frameworks */,
@@ -122,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47260C6825E3468400D88415 /* Build configuration list for PBXNativeTarget "DropDownMenuTests" */;
 			buildPhases = (
+				92CFEBC30C82883AACF7594A /* [CP] Check Pods Manifest.lock */,
 				47260C5625E3468300D88415 /* Sources */,
 				47260C5725E3468300D88415 /* Frameworks */,
 				47260C5825E3468300D88415 /* Resources */,
+				4E01B3A1C79CDBADB0ACA916 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +252,7 @@
 				TargetAttributes = {
 					47260C5025E3468300D88415 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					47260C5925E3468300D88415 = {
 						CreatedOnToolsVersion = 12.4;
@@ -177,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47260C7225E346DC00D88415 /* PopoverViewController.xib in Resources */,
+				47260C8625E34A8D00D88415 /* PopoverCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +297,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47260C9125E34DBB00D88415 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		4E01B3A1C79CDBADB0ACA916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu-DropDownMenuTests/Pods-DropDownMenu-DropDownMenuTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu-DropDownMenuTests/Pods-DropDownMenu-DropDownMenuTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu-DropDownMenuTests/Pods-DropDownMenu-DropDownMenuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CFEBC30C82883AACF7594A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropDownMenu-DropDownMenuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6191052A69D1F1CFCD0CFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropDownMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47260C4D25E3468300D88415 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47260C7125E346DC00D88415 /* PopoverViewController.swift in Sources */,
+				47260C7E25E3476800D88415 /* PresentationalStyleModel.swift in Sources */,
+				47260C9525E34E9900D88415 /* R.generated.swift in Sources */,
+				47260C7825E3471E00D88415 /* BaseViewController.swift in Sources */,
+				47260C8525E34A8D00D88415 /* PopoverCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +536,10 @@
 		};
 		47260C6625E3468400D88415 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F493CC0DC967E5EDA5F7A8 /* Pods-DropDownMenu.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JPNBUYVTC7;
@@ -357,6 +556,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = henry.DropDownMenu;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,7 +564,10 @@
 		};
 		47260C6725E3468400D88415 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FF22A3F6E14322EB6ECD4B /* Pods-DropDownMenu.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JPNBUYVTC7;
@@ -388,7 +591,9 @@
 		};
 		47260C6925E3468400D88415 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD681B9DCC86229E3E233755 /* Pods-DropDownMenu-DropDownMenuTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPNBUYVTC7;
 				INFOPLIST_FILE = DropDownMenuTests/Info.plist;
@@ -406,7 +611,9 @@
 		};
 		47260C6A25E3468400D88415 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C08C3DBB04A8F99108E9C6 /* Pods-DropDownMenu-DropDownMenuTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPNBUYVTC7;
 				INFOPLIST_FILE = DropDownMenuTests/Info.plist;
