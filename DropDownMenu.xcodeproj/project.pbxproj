@@ -18,6 +18,8 @@
 		47260C8525E34A8D00D88415 /* PopoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47260C8325E34A8D00D88415 /* PopoverCell.swift */; };
 		47260C8625E34A8D00D88415 /* PopoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47260C8425E34A8D00D88415 /* PopoverCell.xib */; };
 		47260C9525E34E9900D88415 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47260C9425E34E9900D88415 /* R.generated.swift */; };
+		47260C9B25E364B000D88415 /* PresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47260C9925E364B000D88415 /* PresentingViewController.swift */; };
+		47260C9C25E364B000D88415 /* PresentingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47260C9A25E364B000D88415 /* PresentingViewController.xib */; };
 		D762B1C7F050B33EED5F38C6 /* Pods_DropDownMenu_DropDownMenuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C7D507CAF6AE2A263D1EDF /* Pods_DropDownMenu_DropDownMenuTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		47260C8325E34A8D00D88415 /* PopoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverCell.swift; sourceTree = "<group>"; };
 		47260C8425E34A8D00D88415 /* PopoverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopoverCell.xib; sourceTree = "<group>"; };
 		47260C9425E34E9900D88415 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		47260C9925E364B000D88415 /* PresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingViewController.swift; sourceTree = "<group>"; };
+		47260C9A25E364B000D88415 /* PresentingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresentingViewController.xib; sourceTree = "<group>"; };
 		92F493CC0DC967E5EDA5F7A8 /* Pods-DropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu.debug.xcconfig"; path = "Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
 		AD681B9DCC86229E3E233755 /* Pods-DropDownMenu-DropDownMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu-DropDownMenuTests.debug.xcconfig"; path = "Target Support Files/Pods-DropDownMenu-DropDownMenuTests/Pods-DropDownMenu-DropDownMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2C7D507CAF6AE2A263D1EDF /* Pods_DropDownMenu_DropDownMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownMenu_DropDownMenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +134,7 @@
 		47260C6D25E346B500D88415 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				47260C9825E3649400D88415 /* PresentingView */,
 				47260C8125E34A1700D88415 /* Popover */,
 			);
 			path = Controllers;
@@ -176,6 +181,15 @@
 				47260C8425E34A8D00D88415 /* PopoverCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		47260C9825E3649400D88415 /* PresentingView */ = {
+			isa = PBXGroup;
+			children = (
+				47260C9925E364B000D88415 /* PresentingViewController.swift */,
+				47260C9A25E364B000D88415 /* PresentingViewController.xib */,
+			);
+			path = PresentingView;
 			sourceTree = "<group>";
 		};
 		BDA64EA7230DCD74C967A0AA /* Frameworks */ = {
@@ -285,6 +299,7 @@
 			files = (
 				47260C7225E346DC00D88415 /* PopoverViewController.xib in Resources */,
 				47260C8625E34A8D00D88415 /* PopoverCell.xib in Resources */,
+				47260C9C25E364B000D88415 /* PresentingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47260C7125E346DC00D88415 /* PopoverViewController.swift in Sources */,
+				47260C9B25E364B000D88415 /* PresentingViewController.swift in Sources */,
 				47260C7E25E3476800D88415 /* PresentationalStyleModel.swift in Sources */,
 				47260C9525E34E9900D88415 /* R.generated.swift in Sources */,
 				47260C7825E3471E00D88415 /* BaseViewController.swift in Sources */,
