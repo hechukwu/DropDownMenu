@@ -1,7 +1,7 @@
 import UIKit
 import SafariServices
 
-class BaseViewController: UIViewController {
+public class BaseViewController: UIViewController {
 
     var hideNavigationBarOnAppear = false
 
@@ -14,7 +14,7 @@ class BaseViewController: UIViewController {
 
     // MARK: Overridden UIViewController Methods
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         hideKeyboardWhenTappedAround()
         bindViewModel()
@@ -28,7 +28,7 @@ class BaseViewController: UIViewController {
         }
     }
 
-    override func viewWillAppear(_ animated: Bool) {
+    public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         //
         // Force view to load before mucking with any subviews:
